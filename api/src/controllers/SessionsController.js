@@ -32,7 +32,7 @@ class SessionsController {
       sameSite: "none",
       secure: true,
       maxAge: 15 * 60 * 1000
-    })
+    });
 
     delete user.password;
 
